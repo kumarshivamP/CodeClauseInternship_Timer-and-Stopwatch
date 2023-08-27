@@ -1,22 +1,12 @@
-
 import './App.css';
+import Stopwatch from './components/Stopwatch';
+import Timer from './components/Timer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Stopwatch />
+      <Timer />
     </div>
   );
 }
